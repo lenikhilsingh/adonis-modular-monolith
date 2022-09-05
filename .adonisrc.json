@@ -21,7 +21,8 @@
   "providers": [
     "./providers/AppProvider",
     "@adonisjs/core",
-    "@adonisjs/lucid"
+    "@adonisjs/lucid",
+    "./src/Inventory/Providers/InventoryServiceProvider.ts"
   ],
   "aceProviders": [
     "@adonisjs/repl"
